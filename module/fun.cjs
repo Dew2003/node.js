@@ -15,12 +15,15 @@ let addNums = (a,b) =>
         return a+b ;
     }
     
-   let mul = (a,b) => 
+let mul = (a,b) => 
     {
         return a*b;
     }
+module.exports = {
+    "add":addNums,
+    "mul":mul
+}
 
 
 
-
-    export {addNums,mul};
+    //export {addNums,mul};
